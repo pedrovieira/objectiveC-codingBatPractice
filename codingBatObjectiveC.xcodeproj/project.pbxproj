@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0D53505C215AB5B10045A495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D53505B215AB5B10045A495 /* main.m */; };
+		0D53506E215AD2EA0045A495 /* SleepIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D53506D215AD2EA0045A495 /* SleepIn.m */; };
+		0D535071215AE10F0045A495 /* ParrotTrouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D535070215AE10F0045A495 /* ParrotTrouble.m */; };
+		0D535074215AF1850045A495 /* Front3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D535073215AF1850045A495 /* Front3.m */; };
+		0D535077215B05700045A495 /* ArrayFront9.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D535076215B05700045A495 /* ArrayFront9.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		0D535058215AB5B10045A495 /* codingBatObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codingBatObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D53505B215AB5B10045A495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D53506C215AD1C60045A495 /* SleepIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepIn.h; sourceTree = "<group>"; };
+		0D53506D215AD2EA0045A495 /* SleepIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepIn.m; sourceTree = "<group>"; };
+		0D53506F215ADFCE0045A495 /* ParrotTrouble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParrotTrouble.h; sourceTree = "<group>"; };
+		0D535070215AE10F0045A495 /* ParrotTrouble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParrotTrouble.m; sourceTree = "<group>"; };
+		0D535072215AEF3A0045A495 /* Front3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Front3.h; sourceTree = "<group>"; };
+		0D535073215AF1850045A495 /* Front3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Front3.m; sourceTree = "<group>"; };
+		0D535075215B048C0045A495 /* ArrayFront9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayFront9.h; sourceTree = "<group>"; };
+		0D535076215B05700045A495 /* ArrayFront9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayFront9.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				0D53505B215AB5B10045A495 /* main.m */,
+				0D53506C215AD1C60045A495 /* SleepIn.h */,
+				0D53506D215AD2EA0045A495 /* SleepIn.m */,
+				0D53506F215ADFCE0045A495 /* ParrotTrouble.h */,
+				0D535070215AE10F0045A495 /* ParrotTrouble.m */,
+				0D535072215AEF3A0045A495 /* Front3.h */,
+				0D535073215AF1850045A495 /* Front3.m */,
+				0D535075215B048C0045A495 /* ArrayFront9.h */,
+				0D535076215B05700045A495 /* ArrayFront9.m */,
 			);
 			path = codingBatObjectiveC;
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D53505C215AB5B10045A495 /* main.m in Sources */,
+				0D53506E215AD2EA0045A495 /* SleepIn.m in Sources */,
+				0D535071215AE10F0045A495 /* ParrotTrouble.m in Sources */,
+				0D535074215AF1850045A495 /* Front3.m in Sources */,
+				0D535077215B05700045A495 /* ArrayFront9.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +261,7 @@
 		0D535060215AB5B10045A495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S742339ZZ9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -246,6 +271,7 @@
 		0D535061215AB5B10045A495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S742339ZZ9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
